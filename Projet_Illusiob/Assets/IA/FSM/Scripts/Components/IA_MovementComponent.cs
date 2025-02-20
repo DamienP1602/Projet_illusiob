@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class IA_MovementComponent : MonoBehaviour
 {
+    [SerializeField] float moveSpeed = 5.0f;
+    [SerializeField] GameObject target = null;
+
+    public bool IsAtDestination => Vector3.Distance(target.transform.position, transform.position) < 1.0f;
+    public Vector3 Destination => target.transform.position;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +21,13 @@ public class IA_MovementComponent : MonoBehaviour
     {
         
     }
+
+    public void MoveTo()
+    {
+        if (IsAtDestination) return;
+        Vector3 _newDestination = new Vector3(Destination.x, 0.0f, 0.0f);
+        transform.position = Vector3.MoveTowards(transform.position, _newDestination, moveSpeed * Time.deltaTime);
+    }
+
+    public void SetTarget(GameObject _target) => target = _target;
 }

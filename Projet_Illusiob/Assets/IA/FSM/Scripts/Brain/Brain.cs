@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Brain : MonoBehaviour
 {
-    [SerializeField] FSM fsm = null;
+    [SerializeField] protected FSM fsm = null;
     protected abstract State StartingState { get; }
 
     // Start is called before the first frame update

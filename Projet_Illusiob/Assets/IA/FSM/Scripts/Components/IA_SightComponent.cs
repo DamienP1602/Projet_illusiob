@@ -16,6 +16,8 @@ public class IA_SightComponent : MonoBehaviour
 
     public Vector3 SightOrigin => transform.position + transform.up;
 
+    GameObject target = null;
+
 
     private void Update()
     {
@@ -24,6 +26,7 @@ public class IA_SightComponent : MonoBehaviour
 
     public void Detect()
     {
+        bool _hasDetectedPlayer = false;
         for (int _i = -sightAngle; _i < sightAngle; _i++)
         {
             Vector3 _sightLine = Quaternion.AngleAxis(_i,transform.forward) * transform.right;
@@ -40,7 +43,9 @@ public class IA_SightComponent : MonoBehaviour
             }
             if (_raycastPlayer)
             {
-                OnTargetDetected.Invoke(_hitPlayer.collider.gameObject);
+                OnTargetDetected?.Invoke(_hitPlayer.collider.gameObject);
+                target = _hitPlayer.collider.gameObject;
+                _hasDetectedPlayer = true;
                 Debug.DrawRay(SightOrigin,_sightLine * (_hitPlayer.distance), Color.red,0.1f);//
             }
             else if (_raycastObstacle)
@@ -50,5 +55,10 @@ public class IA_SightComponent : MonoBehaviour
             else
                 Debug.DrawRay(SightOrigin, _sightLine* sightRange, Color.green, 0.1f);
         }
+        if (!_hasDetectedPlayer && target)
+        {
+            target = null;
+            OnTargetLost?.Invoke();
+        }    
     }
 }

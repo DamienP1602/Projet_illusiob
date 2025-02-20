@@ -6,6 +6,7 @@ using UnityEngine;
 public abstract class State
 {
     public List<Transition> transitions = new();
+    public abstract string StateName { get; }
 
     public bool isEnter = false;
 
