@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2764690502506178939}
   - component: {fileID: 3050236208886613106}
   - component: {fileID: 1732537954544552284}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: MovingVerticalAI
   m_TagString: Untagged
   m_Icon: {fileID: 0}

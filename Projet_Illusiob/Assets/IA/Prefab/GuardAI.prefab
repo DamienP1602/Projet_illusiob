@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9096956074911419140}
   - component: {fileID: 3770360166746460195}
   - component: {fileID: 7424633197345950208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GuardAI
   m_TagString: Untagged
   m_Icon: {fileID: 0}

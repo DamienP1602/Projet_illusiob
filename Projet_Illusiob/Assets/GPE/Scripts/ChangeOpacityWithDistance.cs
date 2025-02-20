@@ -24,7 +24,6 @@ public class ChangeOpacityWithDistance : MonoBehaviour
         //Debug.Log(_distance);
         float _opacity = Mathf.InverseLerp(minDistance, maxDistance, _distance);
 
-        Debug.Log(_opacity);
 
         Color _color = material.color;
         _color.a = _opacity;

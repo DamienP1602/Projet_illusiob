@@ -18,7 +18,8 @@ public class StatComponent : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Spike"))
         {
-            SetDamages _damage = collision.gameObject.GetComponent<SetDamages>();
+            Debug.Log("Collision");
+            SetDamages _damage = collision.gameObject.GetComponentInParent<SetDamages>();
             if (_damage == null) return;
 
             transform.position = _damage.PositionForRespawn;
@@ -30,7 +31,7 @@ public class StatComponent : MonoBehaviour
         health--;
         OnDeath?.Invoke();
     }
-    
+
     void VerifyHealthCount()
     {
         if (health == 0)

@@ -25,7 +25,8 @@ public class IA_MovementComponent : MonoBehaviour
     public void MoveTo()
     {
         if (IsAtDestination) return;
-        Vector3 _newDestination = new Vector3(Destination.x, 0.0f, 0.0f);
+        Vector3 _newDestination = new Vector3(Destination.x, transform.position.y, 0.0f);
+        Debug.Log(_newDestination);
         transform.position = Vector3.MoveTowards(transform.position, _newDestination, moveSpeed * Time.deltaTime);
     }
 
