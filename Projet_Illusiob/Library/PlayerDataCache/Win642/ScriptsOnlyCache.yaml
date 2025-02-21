@@ -116,51 +116,51 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17740}
+      Script: {instanceID: 25248}
     - Class: 114
-      Script: {instanceID: 17742}
+      Script: {instanceID: 25454}
     - Class: 114
-      Script: {instanceID: 25252}
+      Script: {instanceID: 25502}
     - Class: 114
-      Script: {instanceID: 25458}
+      Script: {instanceID: 25904}
     - Class: 114
-      Script: {instanceID: 25506}
+      Script: {instanceID: 25984}
     - Class: 114
-      Script: {instanceID: 25908}
+      Script: {instanceID: 26014}
     - Class: 114
-      Script: {instanceID: 25988}
+      Script: {instanceID: 26052}
     - Class: 114
-      Script: {instanceID: 26018}
+      Script: {instanceID: 26484}
     - Class: 114
-      Script: {instanceID: 26056}
+      Script: {instanceID: 26678}
     - Class: 114
-      Script: {instanceID: 26488}
+      Script: {instanceID: 27150}
     - Class: 114
-      Script: {instanceID: 26682}
+      Script: {instanceID: 27158}
     - Class: 114
-      Script: {instanceID: 27154}
+      Script: {instanceID: 27374}
     - Class: 114
-      Script: {instanceID: 27162}
+      Script: {instanceID: 27508}
     - Class: 114
-      Script: {instanceID: 27378}
+      Script: {instanceID: 27604}
     - Class: 114
-      Script: {instanceID: 27512}
+      Script: {instanceID: 27644}
     - Class: 114
-      Script: {instanceID: 27608}
+      Script: {instanceID: 28476}
     - Class: 114
-      Script: {instanceID: 27648}
+      Script: {instanceID: 29780}
     - Class: 114
-      Script: {instanceID: 28480}
+      Script: {instanceID: 29998}
     - Class: 114
-      Script: {instanceID: 29784}
+      Script: {instanceID: 30028}
     - Class: 114
-      Script: {instanceID: 30002}
+      Script: {instanceID: 30640}
     - Class: 114
-      Script: {instanceID: 30032}
+      Script: {instanceID: 30676}
     - Class: 114
-      Script: {instanceID: 30644}
+      Script: {instanceID: 30702}
     - Class: 114
-      Script: {instanceID: 30704}
+      Script: {instanceID: 30744}
     - Class: 114
       Script: {instanceID: 30864}
     - Class: 114
@@ -188,18 +188,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 9f4adfce6b1b8bb04207ed6309c4bc4b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ChangeOpacityWithDistance
-  - hash:
-      serializedVersion: 2
-      Hash: b29f36983c0084971738530017a16e6c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: StayIABrain
   - hash:
       serializedVersion: 2
       Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
@@ -1084,10 +1072,22 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 9f4adfce6b1b8bb04207ed6309c4bc4b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChangeOpacityWithDistance
+  - hash:
+      serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: b29f36983c0084971738530017a16e6c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StayIABrain
   - hash:
       serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
