@@ -1,438 +1,435 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1740125245312716, "dur":136, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245312872, "dur":877, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245313760, "dur":84, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245313872, "dur":388, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245314270, "dur":1810, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245316081, "dur":276369, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245592451, "dur":322, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245592905, "dur":514, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1740125245314144, "dur":1942, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245316087, "dur":6941, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245323212, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245323266, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245323878, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245324112, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245324212, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245324519, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245324758, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245325507, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
-,{ "pid":12345, "tid":1, "ts":1740125245323075, "dur":2721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/Ecole/Prog_Cours/Prog2/Unity/Projet_illusiob/Projet_illusiob/Projet_Illusiob/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
-,{ "pid":12345, "tid":1, "ts":1740125245325797, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245326498, "dur":16196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245342945, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245344935, "dur":17713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245362658, "dur":10080, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245372752, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245372810, "dur":90583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245463464, "dur":45914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245509401, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1740125245509471, "dur":38790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1740125245548278, "dur":7001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1740125245555286, "dur":37155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245314233, "dur":1861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245316096, "dur":486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245317242, "dur":650, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\Microsoft.Extensions.Options.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245316582, "dur":1327, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245317909, "dur":5326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245323275, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245342756, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245344063, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245345074, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245345357, "dur":50476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245395852, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245395951, "dur":84056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245480042, "dur":5374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245485431, "dur":42277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245527717, "dur":4497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1740125245532238, "dur":60000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1740125245592239, "dur":224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245314455, "dur":2381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245317013, "dur":725, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Messaging.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245316837, "dur":1592, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245318429, "dur":4604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245323767, "dur":19223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1740125245343010, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245343482, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245344150, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245345952, "dur":50102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245396068, "dur":27390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245423489, "dur":56569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245480079, "dur":5369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1740125245485456, "dur":46945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245532512, "dur":59683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1740125245592196, "dur":260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245314230, "dur":1861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245316093, "dur":359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245316452, "dur":362, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245317016, "dur":774, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740125245316814, "dur":1493, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245318307, "dur":4728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245344734, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1740125245346039, "dur":5626, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245351682, "dur":76620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740125245428323, "dur":23031, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245451393, "dur":35371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740125245486776, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245486852, "dur":45447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740125245532316, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1740125245532424, "dur":59817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1740125245592242, "dur":220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245314251, "dur":1847, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245316405, "dur":803, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.Algorithms.dll" }}
-,{ "pid":12345, "tid":5, "ts":1740125245316099, "dur":1142, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245317379, "dur":663, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Net.HttpListener.dll" }}
-,{ "pid":12345, "tid":5, "ts":1740125245317241, "dur":1197, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245318438, "dur":4695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245323160, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245372899, "dur":7137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1740125245380092, "dur":15675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245395789, "dur":73024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1740125245468824, "dur":4482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245473341, "dur":40893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1740125245514251, "dur":2319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1740125245516609, "dur":60347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1740125245576958, "dur":15480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245314589, "dur":3129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245317719, "dur":5517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245323261, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245342661, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1740125245347028, "dur":4638, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245351684, "dur":44349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1740125245396043, "dur":27472, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245423530, "dur":50235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1740125245473784, "dur":5978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245479805, "dur":37005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1740125245516819, "dur":10635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1740125245527499, "dur":49482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1740125245576982, "dur":15479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245314284, "dur":2050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245316335, "dur":333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245316874, "dur":524, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.exe" }}
-,{ "pid":12345, "tid":7, "ts":1740125245317441, "dur":632, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp-compile.dll" }}
-,{ "pid":12345, "tid":7, "ts":1740125245316668, "dur":1483, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245318151, "dur":5019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245323191, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245345563, "dur":27670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1740125245373281, "dur":6382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245379676, "dur":80838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1740125245460533, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245460617, "dur":46084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1740125245506727, "dur":2574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1740125245509338, "dur":38883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1740125245548244, "dur":7053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1740125245555302, "dur":37150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245314299, "dur":2066, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245317084, "dur":1617, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Net.Http.Json.dll" }}
-,{ "pid":12345, "tid":8, "ts":1740125245316366, "dur":2444, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245318810, "dur":4254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245346081, "dur":27248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1740125245373359, "dur":6306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245379681, "dur":83843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1740125245463536, "dur":4933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245468499, "dur":41172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1740125245509687, "dur":4304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1740125245514032, "dur":53898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1740125245567931, "dur":24518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245314316, "dur":2245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245316962, "dur":1544, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.Common.dll" }}
-,{ "pid":12345, "tid":9, "ts":1740125245316562, "dur":1977, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245318539, "dur":4571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245345729, "dur":27277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1740125245373069, "dur":6446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245379552, "dur":74597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":9, "ts":1740125245454178, "dur":6218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1740125245460431, "dur":32984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1740125245493527, "dur":41736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1740125245535297, "dur":7564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1740125245542885, "dur":12325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/resources.assets" }}
-,{ "pid":12345, "tid":9, "ts":1740125245555221, "dur":37231, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245314335, "dur":2422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245317179, "dur":708, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":10, "ts":1740125245316758, "dur":1264, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245318022, "dur":5183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245323228, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245351819, "dur":21581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1740125245373443, "dur":6126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245379610, "dur":81070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1740125245460694, "dur":2516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245463242, "dur":43536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1740125245506794, "dur":2516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1740125245509349, "dur":58502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1740125245567853, "dur":24601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245314348, "dur":2413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245317364, "dur":673, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\Analytics.Api.Output.xml" }}
-,{ "pid":12345, "tid":11, "ts":1740125245316762, "dur":1290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245318052, "dur":5146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245323198, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1740125245323520, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245351802, "dur":21734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1740125245373589, "dur":5984, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245379612, "dur":93770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1740125245473394, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245473504, "dur":43315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1740125245516837, "dur":10617, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1740125245527491, "dur":49401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1740125245576894, "dur":15559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245314366, "dur":2404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245316771, "dur":500, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\modules.asset" }}
-,{ "pid":12345, "tid":12, "ts":1740125245316771, "dur":814, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245317713, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1740125245317585, "dur":823, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245318409, "dur":4745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245323177, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245346065, "dur":27238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":12, "ts":1740125245373356, "dur":6210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245379605, "dur":74540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1740125245454150, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1740125245454201, "dur":6215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245460431, "dur":33033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1740125245493482, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1740125245493563, "dur":41913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1740125245535502, "dur":7626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1740125245543154, "dur":12834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1740125245555995, "dur":36473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245314387, "dur":2391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245316779, "dur":505, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.Data.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245317338, "dur":685, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeBuildProgramCommon.Data.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245316779, "dur":1938, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245318717, "dur":4367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245323125, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245345768, "dur":27704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":13, "ts":1740125245373530, "dur":6028, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245379572, "dur":80895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245460471, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245460614, "dur":46191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245506820, "dur":2486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1740125245509344, "dur":58505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1740125245567851, "dur":24604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245314398, "dur":2388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245316787, "dur":569, "ph":"X", "name": "File",  "args": { "detail":"Library\\Bee\\Player47e3424a-inputdata.json" }}
-,{ "pid":12345, "tid":14, "ts":1740125245317387, "dur":680, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\cscompmgd.dll" }}
-,{ "pid":12345, "tid":14, "ts":1740125245316787, "dur":1645, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245318432, "dur":4713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245323170, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245345982, "dur":27230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1740125245373278, "dur":6240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245379529, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245379588, "dur":83917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1740125245463561, "dur":46099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":14, "ts":1740125245509673, "dur":4297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1740125245514030, "dur":53951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1740125245567982, "dur":24472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245314411, "dur":2377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245316789, "dur":606, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Web.WebPages.Razor.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245317496, "dur":794, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Web.Mvc.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245316789, "dur":1946, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245318735, "dur":4299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245323035, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1740125245345090, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":15, "ts":1740125245346096, "dur":5564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245351698, "dur":76499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245428219, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245428318, "dur":57283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245485620, "dur":1088, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1740125245486745, "dur":45662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245532516, "dur":59774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1740125245592291, "dur":178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245314424, "dur":2366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245316980, "dur":757, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Reactive.Windows.Threading.dll" }}
-,{ "pid":12345, "tid":16, "ts":1740125245316791, "dur":1059, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245317850, "dur":5366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245323253, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245345667, "dur":27251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1740125245373137, "dur":6384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245379549, "dur":81107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1740125245460678, "dur":2531, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245463240, "dur":43530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1740125245506788, "dur":2514, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1740125245509337, "dur":58507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1740125245567847, "dur":24614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245314444, "dur":2351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245317029, "dur":803, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245317847, "dur":878, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245316796, "dur":2128, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245318924, "dur":4331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245323281, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245342610, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":17, "ts":1740125245345753, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245345814, "dur":50024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245395860, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245395950, "dur":83922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245479922, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245480070, "dur":36693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245516775, "dur":10699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1740125245527491, "dur":49442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1740125245576934, "dur":15502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245314211, "dur":1878, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245316090, "dur":1086, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245317194, "dur":988, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Security.Cryptography.Encryption.ECDiffieHellman.dll" }}
-,{ "pid":12345, "tid":18, "ts":1740125245317176, "dur":1827, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245319003, "dur":4059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245323063, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":18, "ts":1740125245344291, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":18, "ts":1740125245346006, "dur":5654, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245351676, "dur":71984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1740125245423674, "dur":4326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245428032, "dur":52052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1740125245480094, "dur":5379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245485482, "dur":42224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":18, "ts":1740125245527718, "dur":4525, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1740125245532257, "dur":59891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":18, "ts":1740125245592150, "dur":308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245314471, "dur":2519, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245317097, "dur":772, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Microsoft.Build.Tasks.v4.0.dll" }}
-,{ "pid":12345, "tid":19, "ts":1740125245316991, "dur":1067, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245318058, "dur":5143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245323227, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245346046, "dur":27452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1740125245373545, "dur":6030, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245379608, "dur":89176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1740125245468798, "dur":4508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245473329, "dur":40824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":19, "ts":1740125245514166, "dur":2396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1740125245516603, "dur":54585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1740125245571192, "dur":21243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245314484, "dur":2542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245317027, "dur":764, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Xml.XmlSerializer.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245317027, "dur":1479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245318506, "dur":4792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245323401, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":20, "ts":1740125245325184, "dur":18214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":20, "ts":1740125245343475, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245345048, "dur":34782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245379859, "dur":15903, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245395787, "dur":77625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245473420, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245473555, "dur":40604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245514174, "dur":2392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1740125245516613, "dur":60181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1740125245576797, "dur":15660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245314497, "dur":2543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245317041, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245317401, "dur":669, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.IO.FileSystem.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245317352, "dur":1123, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245318475, "dur":4557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245323076, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245323293, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245323875, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245324114, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245324217, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245324530, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245324743, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Ecole\\Prog_Cours\\Prog2\\Unity\\Projet_illusiob\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245323069, "dur":2293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245325645, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245325816, "dur":103625, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245434357, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245434351, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245434425, "dur":19835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/boot.config" }}
-,{ "pid":12345, "tid":21, "ts":1740125245454278, "dur":6121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245460446, "dur":33153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245493611, "dur":5136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":21, "ts":1740125245498774, "dur":36700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":21, "ts":1740125245535497, "dur":7424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":21, "ts":1740125245542943, "dur":12331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/level0" }}
-,{ "pid":12345, "tid":21, "ts":1740125245555284, "dur":37157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245314539, "dur":2873, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245317413, "dur":195, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245317608, "dur":174, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245317782, "dur":5492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245323306, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245323731, "dur":20960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/D3D12/D3D12Core.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245344719, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245344876, "dur":13110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245358009, "dur":4538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245362562, "dur":65743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245428326, "dur":23018, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245451405, "dur":35391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245486843, "dur":45614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245532466, "dur":2739, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":22, "ts":1740125245535221, "dur":57059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
-,{ "pid":12345, "tid":22, "ts":1740125245592281, "dur":170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245314512, "dur":2678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245317254, "dur":650, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Resources.ResourceManager.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245317191, "dur":1502, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245318693, "dur":4602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245323346, "dur":8022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245331406, "dur":11182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245342954, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245344480, "dur":517, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245345012, "dur":34730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245379780, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245379955, "dur":93417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245473392, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245473598, "dur":43144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.MarshallingModule.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245516761, "dur":10714, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":23, "ts":1740125245527504, "dur":49433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":23, "ts":1740125245576939, "dur":15498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245314523, "dur":2874, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245317499, "dur":1247, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Data.Common.dll" }}
-,{ "pid":12345, "tid":24, "ts":1740125245317399, "dur":1569, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245318968, "dur":4275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245323312, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob.exe" }}
-,{ "pid":12345, "tid":24, "ts":1740125245325006, "dur":19098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":24, "ts":1740125245344166, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245344421, "dur":18163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":24, "ts":1740125245362595, "dur":10142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245372752, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245372823, "dur":55451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":24, "ts":1740125245428296, "dur":23056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245451397, "dur":35347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":24, "ts":1740125245486760, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245486857, "dur":45653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":24, "ts":1740125245532519, "dur":2655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":24, "ts":1740125245535203, "dur":57192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":25, "ts":1740125245314551, "dur":2961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245317513, "dur":776, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245318290, "dur":4878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245323200, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245345567, "dur":27402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":25, "ts":1740125245373012, "dur":6508, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245379542, "dur":74716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputForUIModule.dll" }}
-,{ "pid":12345, "tid":25, "ts":1740125245454268, "dur":6129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245460441, "dur":33224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
-,{ "pid":12345, "tid":25, "ts":1740125245493674, "dur":5079, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":25, "ts":1740125245498776, "dur":44089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":25, "ts":1740125245542879, "dur":12336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":25, "ts":1740125245555225, "dur":37214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245314572, "dur":3001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245317575, "dur":906, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245318481, "dur":4649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245323152, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245345775, "dur":27240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":26, "ts":1740125245373042, "dur":6515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245379564, "dur":74692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":26, "ts":1740125245454277, "dur":6121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245460437, "dur":26339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":26, "ts":1740125245486836, "dur":45619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":26, "ts":1740125245532465, "dur":2713, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":26, "ts":1740125245535206, "dur":57096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":26, "ts":1740125245592303, "dur":148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245314270, "dur":1960, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245316231, "dur":337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245316976, "dur":705, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.20f1\\Editor\\Data\\il2cpp\\build\\deploy\\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll" }}
-,{ "pid":12345, "tid":27, "ts":1740125245316568, "dur":1530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245318098, "dur":5092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245323214, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245372887, "dur":7216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":27, "ts":1740125245380167, "dur":15595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245395793, "dur":77584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":27, "ts":1740125245473394, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245473528, "dur":40624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":27, "ts":1740125245514166, "dur":2397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":27, "ts":1740125245516606, "dur":54590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":27, "ts":1740125245571198, "dur":21242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245314599, "dur":3122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245317721, "dur":5498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245323238, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245345101, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":28, "ts":1740125245346053, "dur":5675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245351741, "dur":76423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":28, "ts":1740125245428252, "dur":51787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":28, "ts":1740125245480058, "dur":5344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245485423, "dur":42268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":28, "ts":1740125245527701, "dur":4512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":28, "ts":1740125245532238, "dur":59889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":28, "ts":1740125245592130, "dur":326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1740125245598229, "dur":428, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1740127051925474, "dur":2060, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127051927548, "dur":240, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127051927837, "dur":344, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127051928227, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1740127051928372, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1740127051928701, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1740127051929005, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Projet_Illusiob/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1740127051929446, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051929623, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051929825, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051930290, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051930771, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051930963, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051931113, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051931264, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051931560, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051931816, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932011, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932139, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932331, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932465, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932571, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932701, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051932939, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933058, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933247, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933408, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933500, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933634, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933797, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051933882, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051934955, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1740127051935218, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1740127051935376, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1740127051928214, "dur":7221, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127051935436, "dur":252339, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127052187776, "dur":180, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127052188097, "dur":2036, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1740127051928382, "dur":7068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127051935453, "dur":10958, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127051946428, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/2359072674029628452.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1740127051946898, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051947003, "dur":1219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051948226, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051948326, "dur":650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051948981, "dur":1855, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051954789, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1740127051955082, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1740127051955259, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Temp\\InputSystemLink.xml" }}
+,{ "pid":12345, "tid":1, "ts":1740127051955427, "dur":2355, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1740127051946541, "dur":14649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Projet_Illusiob/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1740127051961192, "dur":24141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127051993687, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051993819, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127051994386, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127051997379, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052000927, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052005826, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052005885, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052006225, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052009578, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052010015, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052010395, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052014119, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052014180, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052014258, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052017243, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052019336, "dur":536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052019885, "dur":160, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052020050, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052023054, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052026021, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052026086, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052026157, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052028095, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052028227, "dur":18519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052046790, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052052657, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052046917, "dur":5840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052052765, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052052895, "dur":790, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052053714, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052056295, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052056392, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052056597, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052059846, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052060063, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052063630, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052063781, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052064907, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052065036, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052066229, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052066361, "dur":110, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052066476, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052069391, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1740127052069614, "dur":8553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1740127052078169, "dur":109607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051928489, "dur":6977, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051935469, "dur":726, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051936195, "dur":689, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051936884, "dur":587, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051937472, "dur":600, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051938072, "dur":823, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051938895, "dur":7549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051948356, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1740127051950507, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051951099, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1740127051952557, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051953713, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1740127051955624, "dur":8686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1740127051964368, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1740127051964855, "dur":8386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1740127051973344, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051973591, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1740127051975494, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1740127051978268, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1740127051982022, "dur":11668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051993691, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127051993748, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127051994308, "dur":7011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052001365, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052001519, "dur":8202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052009722, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052009781, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052009862, "dur":3873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052013776, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052013966, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052016342, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052016474, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052017932, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052019506, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052019618, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052021545, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052021653, "dur":4405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052026060, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052026214, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052026326, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052028563, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052041333, "dur":659, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052029220, "dur":12783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052042047, "dur":2152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052044234, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052049068, "dur":705, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052049828, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052056954, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052061265, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1740127052061475, "dur":15907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1740127052077385, "dur":110389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051928440, "dur":7017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051935461, "dur":848, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051936310, "dur":690, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051937000, "dur":623, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051937623, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051938176, "dur":920, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051939096, "dur":7450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051946549, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1740127051958638, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1740127051963907, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051964670, "dur":10319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051975260, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1740127051977397, "dur":5300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1740127051982738, "dur":10950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051993692, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051994316, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051997118, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051997384, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127051999731, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127051999852, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052002907, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052003060, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052003177, "dur":2885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052006103, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052008626, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052006331, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052008749, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052008889, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052009214, "dur":3595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052012812, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052012875, "dur":1127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052014021, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052017869, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052017974, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052019689, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052021528, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052021649, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052025223, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052025901, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052028197, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052041232, "dur":573, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052036082, "dur":5732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052041817, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052041884, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052042031, "dur":8774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052050850, "dur":507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052051394, "dur":5414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052056853, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1740127052056950, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052058288, "dur":16257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1740127052074547, "dur":113209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051928529, "dur":6945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051935477, "dur":637, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051936114, "dur":659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051936773, "dur":538, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051937311, "dur":598, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051937910, "dur":564, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051938474, "dur":8035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051946510, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1740127051948539, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1740127051950227, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1740127051950733, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1740127051952738, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051953056, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051953683, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1740127051956253, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1740127051958252, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051957329, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1740127051958478, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1740127051963413, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051959750, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1740127051963547, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127051963860, "dur":5648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127051969574, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1740127051969706, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051969938, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1740127051972488, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1740127051975200, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1740127051976351, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1740127051981498, "dur":12194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051993696, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127051993748, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051996564, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127051994212, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127051996696, "dur":2786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052000963, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052001248, "dur":8691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052009983, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052010251, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052010346, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052031582, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052013848, "dur":17864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052031715, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052031781, "dur":1046, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052032859, "dur":41068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052073931, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052073982, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1740127052074310, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1740127052075915, "dur":111846, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051928563, "dur":6920, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051935486, "dur":773, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051936259, "dur":718, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051936977, "dur":670, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051937648, "dur":555, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051938203, "dur":876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051939080, "dur":7355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051946438, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1740127051959091, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1740127051960127, "dur":1481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051961893, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1740127051964646, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051965153, "dur":7334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127051972563, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1740127051974990, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1740127051976185, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1740127051978936, "dur":14760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051993697, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127051993752, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051994326, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127051998937, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051996463, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127051999018, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127051999077, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127051999564, "dur":5106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052004718, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052005090, "dur":2998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052008136, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052008393, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052011889, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052012351, "dur":36922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052049275, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052049412, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052049778, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052056770, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052062169, "dur":176, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052057792, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052062366, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052062487, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052063597, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052067329, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052064603, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052067414, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052067485, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052067623, "dur":84, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1740127052067713, "dur":6409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1740127052074124, "dur":113638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051928602, "dur":6894, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051935498, "dur":1011, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051936509, "dur":571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051937080, "dur":603, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051937683, "dur":557, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051938240, "dur":932, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051939172, "dur":7481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051946653, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1740127051983183, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1740127051984316, "dur":9382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051993747, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127051997561, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052001615, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052001873, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052004852, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052004931, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052008548, "dur":104, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052005136, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052008666, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052008731, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052008803, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052010580, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052010671, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052011125, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052014894, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052015083, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052017578, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052017740, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052020203, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052023311, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052023370, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052023681, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052026937, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052027044, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052028472, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052028607, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052033801, "dur":385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052034214, "dur":7324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052041648, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052046542, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052046628, "dur":7213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052053926, "dur":7857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052061882, "dur":5418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052067342, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1740127052067423, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052070109, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052070235, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1740127052076096, "dur":111659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051928736, "dur":6780, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051935518, "dur":639, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051936158, "dur":662, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051936821, "dur":512, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051937333, "dur":534, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051937868, "dur":512, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051938380, "dur":8041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051946540, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1740127051946691, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1740127051947039, "dur":1129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051948178, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051948286, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051948765, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051948970, "dur":671, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051949649, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051950131, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051950256, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\PUEC1602\\Documents\\GitHub\\Projet_illusiob\\Projet_Illusiob\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1740127051946522, "dur":5101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1740127051953043, "dur":201, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1740127051953701, "dur":224692, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1740127052186938, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1740127052186916, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1740127052187026, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1740127051928773, "dur":6782, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051935555, "dur":757, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051936313, "dur":675, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051936989, "dur":653, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051937643, "dur":548, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051938191, "dur":893, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051939085, "dur":7342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051946436, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051947473, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1740127051950561, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1740127051953890, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1740127051955680, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1740127051955777, "dur":79, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051962963, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1740127051966453, "dur":211, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051964344, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob.exe" }}
+,{ "pid":12345, "tid":8, "ts":1740127051966785, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127051966914, "dur":397, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051967318, "dur":17152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127051984509, "dur":9271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051993819, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127051994399, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127051996190, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127051996413, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127051999532, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052004000, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052004132, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052004369, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052006943, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052007090, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052007169, "dur":4743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052011962, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052012358, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052018094, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052018240, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052020581, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052020702, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052020781, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052023960, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052027899, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052030010, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052030064, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052041168, "dur":205, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052030244, "dur":11155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052041403, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052048078, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052041557, "dur":6610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052048170, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052048225, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052054197, "dur":207, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052048499, "dur":5945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052054448, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052054561, "dur":84, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052054654, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052058487, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052058770, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052063328, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052064585, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052065795, "dur":286, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052064714, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052066105, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052066223, "dur":174, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052066420, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052068796, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052075603, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1740127052068946, "dur":6726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1740127052075674, "dur":112083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1740127052194213, "dur":1801, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

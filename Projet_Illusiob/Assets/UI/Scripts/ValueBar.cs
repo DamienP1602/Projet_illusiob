@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class ValueBar : MonoBehaviour
 {
-    public Action<float, float> onValueChanged = null;
-
     [SerializeField] Slider slider = null;
     [SerializeField] TextMeshProUGUI text = null;
 
@@ -27,16 +25,16 @@ public class ValueBar : MonoBehaviour
     void Init()
     {
         slider = GetComponent<Slider>();
-        text = GetComponent<TextMeshProUGUI>();
-        onValueChanged += UpdateValue;
+        text = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    void UpdateValue(float _current,float _max)
+    public void UpdateValue(float _current,float _max)
     {
-        float _percent = _max / _current;
+        float _percent = _current / _max;
         slider.value = _percent;
 
-        string _newText = (slider.value * 100.0f).ToString();
+        int _textValue = (int)(slider.value * 100.0f);
+        string _newText = (_textValue).ToString();
         text.SetText(_newText);
     }
 }

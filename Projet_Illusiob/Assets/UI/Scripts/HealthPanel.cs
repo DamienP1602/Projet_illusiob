@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class HealthPanel : MonoBehaviour
 {
-    public Action OnRemoveHeart = null;
-
     [SerializeField] List<AnimUITexture> allHearts = new();
 
     // Start is called before the first frame update
@@ -26,10 +24,9 @@ public class HealthPanel : MonoBehaviour
     void Init()
     {
         allHearts = GetComponentsInChildren<AnimUITexture>().ToList();
-        OnRemoveHeart += RemoveHeart;
     }
 
-    void RemoveHeart()
+    public void RemoveHeart()
     {
         if (allHearts.Count < 1) return;
 

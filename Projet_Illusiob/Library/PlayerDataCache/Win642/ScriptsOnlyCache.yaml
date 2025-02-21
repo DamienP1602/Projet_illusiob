@@ -1144,7 +1144,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a1bd36d0ad30bbccb2340f37ad5d5679
+      Hash: 42bcdf5e071d530b383bac172c41e25e
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Player
@@ -1241,4 +1241,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SceneUI.unity
-  playerPath: D:/Ecole/Prog_Cours/Prog2/Unity/Ship/Projet_Illusiob.exe
+  playerPath: C:/Users/PUEC1602/Documents/GitHub/Projet_illusiob/Ship/Projet_Illusiob.exe

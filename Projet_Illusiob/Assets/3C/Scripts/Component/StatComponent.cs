@@ -6,6 +6,8 @@ using UnityEngine;
 public class StatComponent : MonoBehaviour
 {
     public event Action OnDeath = null;
+    public Action OnLoseHealth = null;
+
     [SerializeField] int health = 5;
     public int Health => health;
 
@@ -23,13 +25,14 @@ public class StatComponent : MonoBehaviour
             if (_damage == null) return;
 
             transform.position = _damage.PositionForRespawn;
+            LoseHealth();
         }
     }
 
     void LoseHealth()
     {
         health--;
-        OnDeath?.Invoke();
+        OnLoseHealth?.Invoke();
     }
 
     void VerifyHealthCount()

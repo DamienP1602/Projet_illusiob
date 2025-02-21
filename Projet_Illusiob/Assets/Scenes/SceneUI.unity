@@ -370,6 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64db920e941644b40a67f3c4a4b7d14f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  staminaBar: {fileID: 1585075489}
+  healthPanel: {fileID: 944472886}
 --- !u!114 &209013434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,9 +399,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0
   maxMoveSpeed: 5
-  speedFactor: 2
+  speedFactor: 3
   zeroSpeed: 0
-  maxMoveSpeedSprinting: 7.5
+  maxMoveSpeedSprinting: 10
   currentStamina: 100
   maxStamina: 100
   minStamina: 0
@@ -2154,6 +2156,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &944472886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7437034700356434074, guid: 12635dd7942dae745b04c93c35da97c5, type: 3}
+  m_PrefabInstance: {fileID: 3436511813690615879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2ceb3b2324c914aad11a0d134e17a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &947421343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3397,6 +3410,17 @@ MonoBehaviour:
   positionForRespawn: {x: 65, y: 2, z: 0}
   useDebugs: 1
   colorDebug: {r: 1, g: 0, b: 0.9190922, a: 1}
+--- !u!114 &1585075489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6246934519003784523, guid: 12635dd7942dae745b04c93c35da97c5, type: 3}
+  m_PrefabInstance: {fileID: 3436511813690615879}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c95c6bc3b2ea4748baef6273d9ac85d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1603016679
 GameObject:
   m_ObjectHideFlags: 0
@@ -4454,7 +4478,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 156845817675023680, guid: 12635dd7942dae745b04c93c35da97c5, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: HUD
       objectReference: {fileID: 0}
     - target: {fileID: 546082690035775413, guid: 12635dd7942dae745b04c93c35da97c5, type: 3}
       propertyPath: m_Pivot.x

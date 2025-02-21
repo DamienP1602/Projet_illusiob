@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,6 +8,7 @@ using static UnityEngine.InputSystem.Controls.AxisControl;
 
 public class MovementComponent : MonoBehaviour
 {
+    public event Action<float, float> OnStaminaChanged = null;
     InputComponent inputs = null;
     Player player = null;
     [SerializeField] float moveSpeed = 0.0f, maxMoveSpeed = 5.0f, speedFactor = 2.0f, zeroSpeed = 0.0f, maxMoveSpeedSprinting = 7.5f;
@@ -37,6 +39,7 @@ public class MovementComponent : MonoBehaviour
         float _dir = inputs.MoveAction.ReadValue<float>();
         float _maxMoveSpeedTemp = isSprinting ? maxMoveSpeedSprinting : maxMoveSpeed; // spriting lead to change the current max speed 
         currentStamina = StaminaSystem(_dir, currentStamina, maxStamina, minStamina); //manage the stamina loss and gain system
+        OnStaminaChanged?.Invoke(currentStamina,maxStamina);
         if (_dir == zeroSpeed) // if no movement
         {
             moveSpeed -= Time.deltaTime * speedFactor * _maxMoveSpeedTemp; //lose speed by time elapsed
